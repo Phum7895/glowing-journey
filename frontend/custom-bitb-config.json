@@ -1,0 +1,56 @@
+{
+  "domains": [
+    "bitwise.mempool.space"
+  ],
+  "theme": "wiz",
+  "enterprise": "bitb",
+  "branding": {
+    "name": "bitb",
+    "title": "BITB",
+    "site_id": 20,
+    "header_img": "/resources/bitblogo.svg",
+    "footer_img": "/resources/bitblogo.svg"
+  },
+  "meta": {
+    "title": "BITB | Bitwise Bitcoin ETF",
+    "description": "BITB provides low-cost access to bitcoin through a professionally managed fund",
+    "previewFallbackImg": "/resources/bitb/bitb-preview.jpg"
+  },
+  "dashboard": {
+    "widgets": [
+      {
+        "component": "fees",
+        "mobileOrder": 4
+      },
+      {
+        "component": "walletBalance",
+        "mobileOrder": 1,
+        "props": {
+          "wallet": "BITB"
+        }
+      },
+      {
+        "component": "goggles",
+        "mobileOrder": 5
+      },
+      {
+        "component": "wallet",
+        "mobileOrder": 2,
+        "props": {
+          "wallet": "BITB",
+          "period": "all"
+        }
+      },
+      {
+        "component": "blocks"
+      },
+      {
+        "component": "walletTransactions",
+        "mobileOrder": 3,
+        "props": {
+          "wallet": "BITB"
+        }
+      }
+    ]
+  }
+}
